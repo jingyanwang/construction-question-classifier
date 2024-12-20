@@ -23,7 +23,9 @@ This is a simple RESTful API built with FastAPI to serve an NLP model of classif
    bash uvicorn_start.sh
    ```
 
-4. **Test the application**:
+4. Access the API at `http://localhost:8000/docs`
+
+5. **Test the application**:
    ```bash
    pytest
    ```
