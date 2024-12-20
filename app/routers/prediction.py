@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.models.nlp_model.py import model
+from app.models.nlp_model import model
 
 router = APIRouter()
 

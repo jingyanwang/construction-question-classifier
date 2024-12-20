@@ -8,6 +8,14 @@ This is a simple RESTful API built with FastAPI to serve an NLP model.
 
 ## Setup Instructions
 
+```bash
+conda install python=3.10
+conda remove --name question_classification --all
+conda create --name question_classification python=3.10
+conda activate question_classification
+
+```
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/my-nlp-api.git
@@ -38,8 +46,9 @@ This is a simple RESTful API built with FastAPI to serve an NLP model.
 
 2. **Run the container**:
    ```bash
-   docker run -p 8000:8000 my-nlp-api
+   docker run -it -p 8000:8000 -v `"C:\Users\jimwa\construction-question-classifier`":/root/ my-nlp-api bash
    ```
+
 
 3. Access the API at `http://localhost:8000`.
 
