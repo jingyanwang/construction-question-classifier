@@ -2,6 +2,7 @@ from sklearn.cluster import KMeans
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
+
 def select_representative_questions(questions, k):
     """
     Select K most representative questions from a list of questions.
@@ -38,3 +39,5 @@ def select_representative_questions(questions, k):
         representative_questions.append(questions[closest_idx])
     
     return representative_questions
+
+

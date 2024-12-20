@@ -8,18 +8,10 @@ This is a simple RESTful API built with FastAPI to serve an NLP model.
 
 ## Setup Instructions
 
-```bash
-conda install python=3.10
-conda remove --name question_classification --all
-conda create --name question_classification python=3.10
-conda activate question_classification
-
-```
-
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/my-nlp-api.git
-   cd my-nlp-api
+   git clone https://github.com/yourusername/construction-question-classifier-api.git
+   cd construction-question-classifier-api
    ```
 
 2. **Install dependencies**:
@@ -41,12 +33,13 @@ conda activate question_classification
 
 1. **Build the Docker image**:
    ```bash
-   docker build -t my-nlp-api .
+   docker build -t construction-question-classifier-api .
    ```
 
 2. **Run the container**:
    ```bash
-   docker run -it -p 8000:8000 -v `"C:\Users\jimwa\construction-question-classifier`":/root/ my-nlp-api bash
+   docker run -it -p 8000:8000 -v `"C:\Users\jimwa\construction-question-classifier`":/root/ construction-question-classifier-api bash
+   docker run -it -p 8000:8000 construction-question-classifier-api
    ```
 
 
@@ -65,8 +58,8 @@ pytest
 ### Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/my-nlp-api.git
-   cd my-nlp-api
+   git clone https://github.com/yourusername/construction-question-classifier-api.git
+   cd construction-question-classifier-api
    ```
 
 2. Install dependencies:
