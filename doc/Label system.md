@@ -1,44 +1,60 @@
-Here's a classification system with 10 labels for the construction-domain question classification model:
+### **Label System for Question Classification Model**
+1. **Document Request**
+   - **Definition:** Questions seeking specific project documents, drawings, or information contained within documents, including RFIs, submittals, specifications, or schedules.
+   - **Example Questions:**  
+     - "Show me the hardware schedule for door 20110."
+     - "What is the status of RFI 4?"
 
-### Labels:
-1. **Document Requests**  
-   Questions seeking specific documents or information within documents like RFIs, specifications, submittals, schedules, or drawings.  
-   Example: "Show me the hardware schedule for door 20110."
+2. **Material or Product Information**
+   - **Definition:** Questions about materials, finishes, colors, or specific products to be used or installed on the project.
+   - **Example Questions:**  
+     - "What color is the paint in the hallways?"
+     - "What material is CT-2?"
 
-2. **Ownership or Responsibility**  
-   Questions identifying individuals, teams, or subcontractors responsible for tasks or materials.  
-   Example: "Who is responsible for caulking between countertops and cabinets?"
+3. **Specifications and Standards**
+   - **Definition:** Questions about specific project standards, codes, or requirements detailed in specifications.
+   - **Example Questions:**  
+     - "What are the ADA clearance requirements in restroom stalls?"
+     - "What does the spec say about cabling for the fire alarm system components?"
 
-3. **Specifications and Requirements**  
-   Questions about project specifications, product requirements, or standards (materials, finishes, tolerances, etc.).  
-   Example: "What does the spec say about cabling for the fire alarm system components?"
+4. **Installation and Construction Details**
+   - **Definition:** Questions about installation methods, tolerances, dimensions, or layout details for construction components.
+   - **Example Questions:**  
+     - "What is the required mounting height for fire extinguisher cabinets?"
+     - "What is the nail pattern for a shearwall on level 2?"
 
-4. **Materials and Products**  
-   Questions about specific materials, products, or components, including their size, color, or installation details.  
-   Example: "What color is the paint in the hallways?"
+5. **Ownership or Responsibility**
+   - **Definition:** Questions seeking to identify the responsible party, subcontractor, or owner of specific tasks or project components.
+   - **Example Questions:**  
+     - "Who is responsible for caulking between countertops and cabinets?"
+     - "Which subcontractor is responsible for handicap push buttons?"
 
-5. **Quantities and Counts**  
-   Questions requesting counts or quantities of items (fixtures, units, workers, etc.) on the project.  
-   Example: "How many ceiling fans on 5th floor building 2?"
+6. **Quantities and Progress Tracking**
+   - **Definition:** Questions requesting quantities, counts, or the current status of progress on specific tasks or elements.
+   - **Example Questions:**  
+     - "How many auger cast piles have been drilled to date?"
+     - "What is the status of observation 2629?"
 
-6. **Locations and Layouts**  
-   Questions about the location of project components, layout plans, or placements.  
-   Example: "Where is the thermostat location in building 2 level 1 corridor?"
+7. **Maintenance and Turnover**
+   - **Definition:** Questions about maintenance materials, attic stock, closeout requirements, or warranties.
+   - **Example Questions:**  
+     - "What maintenance materials should be provided for ACT-12?"
+     - "What is the warranty on EF-11?"
 
-7. **Installation and Execution**  
-   Questions about installation methods, procedures, tolerances, or specific task execution details.  
-   Example: "What are the mounting height requirements for strobes on the project?"
+8. **Translation Request**
+   - **Definition:** Questions requesting translation of information to another language.
+   - **Example Questions:**  
+     - "What color is the paint in the hallways? Translate to Spanish."
+     - "What bolts are used on the balconies? Please translate to Spanish."
 
-8. **Testing, Compliance, and Commissioning**  
-   Questions about testing requirements, compliance with standards, or commissioning activities.  
-   Example: "What are the testing and balancing requirements for AHUs?"
+9. **Schedule and Timeline**
+   - **Definition:** Questions about project schedules, timelines, or durations for tasks.
+   - **Example Questions:**  
+     - "When is paint supposed to be done in exhibit prefunction?"
+     - "How long is the duration of install for the metal panel ceiling in the atrium?"
 
-9. **Status and Progress Tracking**  
-   Questions tracking the status, approval, or progress of documents, tasks, or work items.  
-   Example: "What is the status of RFI 4?"
-
-10. **Finish and Aesthetic Details**  
-    Questions related to surface finishes, appearances, colors, or aesthetic components.  
-    Example: "What are the finishes in the elevator cab?"
-
-This system balances clarity and coverage, ensuring that most construction-related questions fall into one of these intuitive categories.
+10. **Miscellaneous Queries**
+    - **Definition:** Questions that don’t fit neatly into other categories, such as jokes, personal requests, or administrative tasks.
+    - **Example Questions:**  
+      - "Tell me a joke."
+      - "What is David Smith's number?"
