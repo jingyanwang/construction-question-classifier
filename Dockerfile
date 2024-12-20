@@ -11,8 +11,8 @@ RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTr
 
 
 # Copy the application code
-# COPY app ./app
+COPY app ./app
 
 # Expose the port and define the startup command
 EXPOSE 8000
-# CMD ["bash", "uvicorn_start.sh"]
+CMD ["bash", "uvicorn_start.sh"]
