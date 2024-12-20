@@ -38,7 +38,6 @@ This is a simple RESTful API built with FastAPI to serve an NLP model.
 
 2. **Run the container**:
    ```bash
-   docker run -it -p 8000:8000 -v `"C:\Users\jimwa\construction-question-classifier`":/root/ construction-question-classifier-api bash
    docker run -it -p 8000:8000 construction-question-classifier-api
    ```
 
@@ -48,38 +47,6 @@ This is a simple RESTful API built with FastAPI to serve an NLP model.
 ## Testing
 
 Run the tests using:
-```bash
-pytest
-```
-```
-
----
-
-### Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/construction-question-classifier-api.git
-   cd construction-question-classifier-api
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the application:
-   ```bash
-   bash uvicorn_start.sh
-   ```
-
-4. Open your browser or use a tool like `curl` or Postman to access the API:
-   - Root endpoint: `http://localhost:8000/`
-   - Prediction endpoint: `POST http://localhost:8000/predict/` with JSON payload `{"text": "some text"}`.
-
----
-
-### Testing Instructions
-Run the tests using `pytest`:
 ```bash
 pytest
 ```
