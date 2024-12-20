@@ -3,8 +3,7 @@
 This is a simple RESTful API built with FastAPI to serve an NLP model.
 
 ## Features
-- Predict text using a dummy NLP model
-- Easy to extend for real-world NLP models
+- Infer the category of a input question in the domain of construction 
 
 ## Setup Instructions
 
