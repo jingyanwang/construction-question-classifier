@@ -21,3 +21,4 @@ Thumbs.db
 *.python_history
 
 __pycache__/*
+.cache/*

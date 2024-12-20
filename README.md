@@ -1,6 +1,6 @@
 # Construction Question Classifier API
 
-This is a simple RESTful API built with FastAPI to serve an NLP model.
+This is a simple RESTful API built with FastAPI to serve an NLP model of classifying the questions of constructions.
 
 ## Features
 - Infer the category of a input question in the domain of construction 
