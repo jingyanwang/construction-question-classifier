@@ -9,8 +9,8 @@ This is a simple RESTful API built with FastAPI to serve an NLP model of classif
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/construction-question-classifier-api.git
-   cd construction-question-classifier-api
+   git clone https://github.com/yourusername/construction-question-classifier.git
+   cd construction-question-classifier
    ```
 
 2. **Install dependencies**:
@@ -20,40 +20,25 @@ This is a simple RESTful API built with FastAPI to serve an NLP model of classif
 
 3. **Run the application**:
    ```bash
-   bash uvicorn_start.sh
+   jupyter-lab --ip=0.0.0.0 --no-browser --allow-root
    ```
 
-4. Access the API at `http://localhost:8000/docs`
+4. Access the notebooks at `http://localhost:8888/lab`
 
 
 ## Docker Usage
 
 1. **Build the Docker image**:
    ```bash
-   docker build -t construction-question-classifier-api .
+   docker build -t construction-question-classifier .
    ```
 
 2. **Run the container**:
    ```bash
-   docker run -it -p 8000:8000 construction-question-classifier-api
+   docker run -it -p 8888:8888 -v `"C:\Users\jimwa\construction-question-classifier`"://construction-question-classifier construction-question-classifier
    ```
 
 
-3. Access the API at `http://localhost:8000`.
 
-## Testing
+3. Access the notebooks at `http://localhost:8888/lab`
 
-Run the tests using:
-```bash
-pytest
-```
-
-Example output:
-```plaintext
-================================= test session starts ==================================
-collected 2 items
-
-app/tests/test_main.py ..                                                 [100%]
-
-================================= 2 passed in 0.02s ==================================
-```
