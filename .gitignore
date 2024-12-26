@@ -1,0 +1,26 @@
+# Compiled code
+*.o
+*.class
+*.exe
+
+# Temporary files
+*.tmp
+*.bak
+
+# IDE specific files
+.DS_Store
+.idea/
+.vscode/
+
+# OS-specific files
+Thumbs.db
+
+
+*.bash_history
+*.pyc
+*.python_history
+
+__pycache__/*
+.cache/*
+.ipynb_checkpoints/*
+__pycache__/*
